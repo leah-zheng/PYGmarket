@@ -1,0 +1,125 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    border-bottom: 2px solid #b1191a;
+    
+    height: 82px;
+}
+.header .logo {
+    padding-top: 15px;
+}
+.register_area {
+    height: 520px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+}
+.register_area h3 {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.register_area em {
+    float: right;
+    font-size: 14px;
+}
+.register_area .login {
+    color: #b1191a;
+}
+.reg_form {
+    width: 600px;
+    height: 420px;
+    margin: 30px auto 0;
+}
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    text-align: right;
+    line-height: 40px;
+}
+.inp {
+    height: 34px;
+    width: 238px;
+    border: 1px solid #999;
+    margin-left: 10px;
+}
+.reg_form li{
+    margin-top: 10px;
+}
+.errow {
+    color: red;   
+}
+.errow_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../img/error.png);
+    margin: 0 3px;
+}
+.success {
+    color: green;
+}
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../img/success.png);
+    margin: 0 3px;
+}
+.safe {
+    margin-left: 198px;
+}
+.safe .ruo {
+    padding: 0 10px;
+    background-color: #de1111;
+    color: #fff;
+}
+.safe .zhong {
+    padding: 0 10px;
+    background-color: #40b83f;
+    color: #fff;
+}
+.safe .qiang {
+    padding: 0 10px;
+    background-color: #f79100;
+    color: #fff;
+}
+.checkbox {
+    vertical-align: middle;
+}
+.agree {
+    padding-top: 30px;
+    margin-left: 100px;
+}
+.agree a {
+    color: #1ba1e6;
+}
+.register_done {
+    display: block;
+    width: 200px;
+    height: 34px;
+    background-color: #b1191a;
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+    margin: 30px 0 0 120px;
+}
+.footer {
+    height: 120px;
+    text-align: center;
+}
+.links {
+    line-height: 30px;
+    margin-top: 20px;
+}
+.address {
+    line-height: 20px;
+}

@@ -1,0 +1,133 @@
+.sk {
+    position: absolute;
+    top: 41px;
+    left: 186px;
+    height: 32px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 0 0 14px;
+}
+.sk_list {
+    line-height: 45px;
+}
+.sk_list li{
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 25px;
+}
+.sk_list a {
+    color: #000;
+    font-weight: 700;
+}
+.sk_list a:hover {
+    color: #c81523;
+}
+.sk_con {
+    margin-left: 20px;
+}
+.sk_con li {
+    line-height: 45px;
+    float: left;
+    margin: 0 20px;
+}
+.sk_con a {
+    font-size: 14px;
+    font-weight: 600;
+}
+/* 列表页内容部分 */
+.sk_bd {
+    margin-top: 15px;
+    width: 1212px;
+}
+.sk_goods {
+    float: left;
+    width: 288px;
+    height: 458px;
+    border: 1px solid transparent;
+    margin: 12px 12px 3px 0;
+    transition: all 0.4s;
+}
+.sk_goods:hover {
+    border: 1px solid #c81523;
+}
+.sk_goods_title {
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.sk_goods_price {
+    padding: 0 10px;
+}
+.sk_goods_price em{
+    font-size: 20px;
+    color: #c81523;
+    font-weight: 700;
+}
+.sk_goods_price del {
+    font-size: 14px;
+    color: #a4a4a4;
+    font-weight: 700;
+}
+.sk_goods_progress {
+    margin: 5px;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #666666;
+}
+.bar {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #c81523;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.bar_in {
+    height: 10px;
+    width: 87%;
+    background-color: #c81523;
+}
+.sk_goods_progress i,
+.sk_goods_progress em {
+    color: #c81523;
+}
+.sk_goods_buy {
+    display: block;
+    height: 50px;
+    background-color: #c81523;
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+/* 分页制作 */
+.page {
+    text-align: center;
+    margin: 30px 0;
+}
+.page_num a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ccc;
+    line-height: 36px;
+    background-color: #f7f7f7;
+}
+.page_num .page_prov,
+.page_num .page_next {
+    width:70px;
+}
+.page_num .current,
+.page_num .dotted {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.page_skip input,
+.page_skip button {
+    height: 36px;
+    width: 45px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border: 1px solid #ccc;
+}
+
